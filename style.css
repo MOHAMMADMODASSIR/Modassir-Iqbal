@@ -9,7 +9,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* background-color: black; */
 }
 
 html {
@@ -113,7 +112,6 @@ section .title::after {
 
 .navbar.sticky {
     padding: 15px 0;
-    /* background: crimson;*/
     background: rgb(112, 112, 173);
 }
 
@@ -124,7 +122,6 @@ section .title::after {
 }
 
 .navbar .logo a {
-    /* color: #fff; */
     color: White;
     font-size: 30px;
     font-weight: 600;
@@ -154,13 +151,10 @@ section .title::after {
 }
 
 .navbar .menu li a:hover {
-    /* color: crimson; */
     color: black;
 }
 
 .navbar.sticky .menu li a:hover {
-    /* color: #fff; */
-    /* color: green; */
     color: black;
 }
 
@@ -235,20 +229,16 @@ section .title::after {
     font-size: 50px;
     font-weight: 600;
     margin-left: -3px;
-    /* border: 2px solid red; */
 }
 
 .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
-    /* border: 2px solid red; */
     margin-top: 10px;
 }
 
 .home .home-content .text-3 span {
-    /* color: crimson; */
     color: gray;
-    /* border: 2px solid yellow; */
     font-weight: 500;
 }
 
@@ -273,10 +263,6 @@ section .title::after {
 
 /* about section styling */
 
-
-/* .about .title::after {
-    content: "who i am";
-} */
 
 .about .about-content .left {
     width: 45%;
@@ -309,7 +295,6 @@ section .title::after {
 
 .about .about-content .right a {
     display: inline-block;
-    /* background: crimson; */
     background: black;
     color: #fff;
     font-size: 20px;
@@ -322,7 +307,6 @@ section .title::after {
 }
 
 .about .about-content .right a:hover {
-    /* color: crimson; */
     color: black;
     background: none;
     background-color: white;
@@ -330,7 +314,6 @@ section .title::after {
 }
 
 .about {
-    /* border: 5px solid green; */
     margin-top: 9.3%;
     background-color: yellow;
 }
@@ -356,7 +339,6 @@ section .title::after {
 .skills .title::after,
 .teams .title::after {
     background: #111;
-    /* content: "what i know"; */
 }
 
 .skills .serv-content .card {
@@ -370,7 +352,6 @@ section .title::after {
 }
 
 .skills .serv-content .card:hover {
-    /* background: crimson; */
     background: green;
 }
 
@@ -384,7 +365,6 @@ section .title::after {
 
 .skills .serv-content .card i {
     font-size: 50px;
-    /* color: crimson; */
     color: yellow;
     transition: color 0.3s ease;
 }
@@ -416,12 +396,10 @@ section .title::after {
 
 .projects {
     color: #fff;
-    /* background: #111; */
     background: orange;
 }
 
 .projects .projects-content .card {
-    /* border: 2px solid green; */
     margin-top: 10px;
 }
 
@@ -431,13 +409,8 @@ section .title::after {
 
 .projects .title::after {
     background: #111;
-    /* content: "what i know"; */
 }
 
-
-/* .projects .projects-content .card {
-    border: 2px solid green;
-} */
 
 .projects .projects-content .card {
     width: calc(33% - 20px);
@@ -445,29 +418,16 @@ section .title::after {
     text-align: center;
     border-radius: 6px;
     padding: 40px 25px;
-    /* cursor: pointer; */
     transition: all 0.3s ease;
-    /* border: 2px solid green; */
 }
-
-
-/* .projects .projects-content .card:hover {
-    background: crimson;
-    background: green;
-} */
 
 .projects .projects-content .card .box {
     transition: all 0.3s ease;
 }
 
 
-/* .projects .projects-content .card:hover .box {
-    transform: scale(1.2);
-} */
-
 .projects .projects-content .card i {
     font-size: 50px;
-    /* color: crimson; */
     color: yellow;
     transition: color 0.3s ease;
 }
@@ -480,16 +440,10 @@ section .title::after {
     color: #fff;
 }
 
-
-/* .projects .projects-content .card:hover i {
-    color: #fff;
-} */
-
 .projects .projects-content .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-    /* border: 2px solid red; */
 }
 
 .projectimg {
@@ -505,16 +459,13 @@ section .title::after {
 }
 
 .paragraph {
-    /* border: 2px solid red; */
     margin-left: -50%;
     margin-top: 30px;
     font-size: 25px;
     font-style: bold;
-    /* cursor: pointer; */
 }
 
 .descriptions {
-    /* border: 2px solid red; */
     margin-left: -40px;
     margin-top: 25px;
     font-style: normal;
@@ -523,13 +474,10 @@ section .title::after {
 
 .live {
     border: 2px solid orange;
-    /* cursor: pointer; */
     outline: none;
-    /* width: 25%; */
     margin: 10px 75px;
     padding: 10px 21px;
     color: white;
-    /* border: 2px solid blue; */
     border-radius: 10px;
     font-size: 17px;
     font-weight: bold;
@@ -546,10 +494,6 @@ section .title::after {
 
 /* teams section styling */
 
-
-/* .teams .title::after {
-    content: "who with me";
-} */
 
 .teams .carousel .card {
     background: #222;
@@ -628,12 +572,6 @@ section .title::after {
     background-color: purple;
 }
 
-
-/* .contact .title::after {
-    content: "Get in touch";
-    border: 2px solid green;
-} */
-
 .contact .contact-content .column {
     width: calc(50% - 30px);
 }
@@ -642,7 +580,6 @@ section .title::after {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-    /* border: 2px solid green; */
     text-decoration: underline;
 }
 
@@ -919,20 +856,15 @@ footer span a:hover {
 
 .social {
     color: white;
-    /* border: 2px solid red; */
-    /* display: flex; */
     padding: 10%;
     margin-left: -30px;
     margin-top: -33%;
-    /* text-align: center; */
     font-size: 40px;
 }
 
 .social ul a i {
     font-size: 35px;
-    /* border: 2px solid red; */
     color: rgb(56, 79, 192);
-    /* margin-bottom: 80px; */
 }
 
 .social ul a i:hover {
@@ -941,24 +873,18 @@ footer span a:hover {
 }
 
 .subject {
-    /* border: 2px solid red; */
     padding: 12px;
-    /* color: blueviolet; */
 }
 
 .foot {
-    /* border: 2px solid green; */
     margin-top: 10px;
 }
 
 footer .f {
-    /* border: 2px solid green; */
     font-size: 30px;
-    /* margin-top: 20px; */
 }
 
 footer .f a {
-    /* border: 2px solid green; */
     margin: 60px;
     padding: 10px;
     font-weight: bold;
@@ -971,9 +897,6 @@ footer .f a {
 }
 
 .f1 {
-    /* border: 2px solid red; */
-    /* padding-bottom: 20px; */
-    /* display: block; */
     line-height: 30pt;
 }
 
