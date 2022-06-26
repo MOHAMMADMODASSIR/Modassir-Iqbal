@@ -460,7 +460,7 @@ section .title::after {
 }
 
 .paragraph {
-    margin-left: -50%;
+    margin-left: -40%;
     margin-top: 30px;
     font-size: 25px;
     font-style: bold;
