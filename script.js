@@ -36,11 +36,18 @@ $(document).ready(function() {
     // typing text animation script
 
     var typed = new Typed(".typing", {
-        strings: ["Software Developer", "Web Developer", "Open Source Contributors", "Pyhton Learner"],
+        strings: ["Software Developer", "Python Developer", "Data Scientist", "ML Developer", "Designer", "Open Source Contributors"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
+
+    // var typed = new Typed(".typing-2", {
+    //     strings: ["Software Developer", "Android Developer", "Python", "Designer", "Freelancer", "Open Source Contributors"],
+    //     typeSpeed: 100,
+    //     backSpeed: 60,
+    //     loop: true
+    // });
 
     // owl carousel script
     $('.carousel').owlCarousel({
